@@ -2,16 +2,14 @@
 /**
  * main - Entry point
  *
- * Return: always 0
- */
-int main(void)
+ * Return: ad)
 {
 	char c;
 
-	for (c = 'z'; c>= 'a'; c--)
+	for (c = 'z'; c >= 'a'; c--)
 	{
 		putchar(c);
 	}
-	putchar ('\n');
+	putchar('/n');
 	return (0);
 }
