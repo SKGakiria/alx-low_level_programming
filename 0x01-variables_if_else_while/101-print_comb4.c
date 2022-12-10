@@ -4,7 +4,7 @@
  *
  * Return: always 0
  */
-int man(void)
+int main(void)
 {
 	int n1;
 	int n2;
@@ -18,7 +18,7 @@ int man(void)
 			{
 				if (n3 > n2 && n2 > n1)
 				{
-					putchar(n1 +'0');
+					putchar(n1 + '0');
 					putchar(n2 + '0');
 					putchar(n3 + '0');
 
@@ -34,5 +34,3 @@ int man(void)
 	putchar('\n');
 	return (0);
 }
-
-	
