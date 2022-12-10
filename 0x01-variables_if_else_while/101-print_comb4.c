@@ -7,7 +7,7 @@
 int man(void)
 {
 	int n1;
-	int n2i;
+	int n2;
 	int n3;
 
 	for (n1 = 0; n1 < 10; n1++)
