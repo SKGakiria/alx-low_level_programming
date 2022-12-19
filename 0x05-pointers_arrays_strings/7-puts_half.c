@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_strlen.c"
 
 /**
  * puts_half - print 2nd half of string
