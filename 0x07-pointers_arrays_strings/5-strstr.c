@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strstr - function to find substring
  * @haystack: string yo search through
@@ -19,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		if (haystack[i] == needle[0])
 		{
-			k =i;
+			k = i;
 			for (j = 0; needle[j] != '\0'; j++)
 			{
 				if (haystack[k] == needle[j])
