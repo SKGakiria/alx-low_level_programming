@@ -6,7 +6,7 @@
  * @accept: character to search for
  *
  * Return: s if found and NULL if not
- */
+ * */
 
 char *_strpbrk(char *s, char *accept)
 {
@@ -14,7 +14,7 @@ char *_strpbrk(char *s, char *accept)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (i = 0; accept [j] != '\0'; j++)
+		for (j = 0; accept [j] != '\0'; j++)
 		{
 			if (s[i] == accept[j])
 			{
