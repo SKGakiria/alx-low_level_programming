@@ -2,7 +2,7 @@
 #include "_prime_number.c"
 
 /**
- * _is_prime_number - check if prime
+ * is_prime_number - check if prime
  * @n: number to check
  * Return: 1 if prime and 0 if not
  */
