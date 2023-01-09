@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for (i = 1; 1 < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		if (num_check(argv[i]))
 		{
