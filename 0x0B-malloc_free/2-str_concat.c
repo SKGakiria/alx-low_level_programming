@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * str_concat - concatenate two strings
+ * str_concat - concatenate 2 strings
  * @s1: first string
  * @s2: second string
  *
- * Return: combination of the two
+ * Return: combination of the 2
  */
 
 char *str_concat(char *s1, char *s2)
@@ -45,7 +45,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (j = 0; j < len2; j++)
 	{
-		*(concat + j) = *(s2 + j);
+		*(concat + i) = *(s2 + j);
 		i++;
 	}
 	return (concat);
