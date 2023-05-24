@@ -3,6 +3,7 @@
 The Island Perimeter
 """
 
+
 def island_perimeter(grid):
     """Function that returns the perimeter of the island described in grid."""
 
@@ -13,6 +14,7 @@ def island_perimeter(grid):
                 perimeter += surrounded_water(grid, i, j)
 
     return (perimeter)
+
 
 def surrounded_water(grid, i, j):
     """Function that returns num of surrounded water for a cell in grid."""
